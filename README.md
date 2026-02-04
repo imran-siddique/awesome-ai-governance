@@ -2,7 +2,7 @@
 
 > A curated list of tools, frameworks, and resources for governing autonomous AI agents safely.
 
-AI agents are getting powerful. This list focuses on **keeping them safe, compliant, and accountable**.
+AI agents are getting powerful. This list focuses on keeping them safe, compliant, and accountable.
 
 ## Contents
 
@@ -17,14 +17,12 @@ AI agents are getting powerful. This list focuses on **keeping them safe, compli
 - [Research & Papers](#research--papers)
 - [Standards & Protocols](#standards--protocols)
 
----
-
 ## Governance Frameworks
 
 *Complete frameworks for governing AI agent behavior.*
 
-- **[Agent OS](https://github.com/imran-siddique/agent-os)** - Kernel architecture for AI agents with POSIX-inspired primitives. Deterministic policy enforcement. ![Stars](https://img.shields.io/github/stars/imran-siddique/agent-os?style=social)
-- **[AgentMesh](https://github.com/imran-siddique/agent-mesh)** - Trust layer for multi-agent systems. Identity, trust scoring, delegation chains. ![Stars](https://img.shields.io/github/stars/imran-siddique/agent-mesh?style=social)
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Kernel architecture for AI agents with POSIX-inspired primitives and deterministic policy enforcement.
+- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Trust layer for multi-agent systems with identity, trust scoring, and delegation chains.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Add guardrails to LLM applications.
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA's toolkit for adding guardrails to LLM apps.
 - [LangChain](https://github.com/langchain-ai/langchain) - Framework with built-in safety callbacks.
@@ -42,17 +40,17 @@ AI agents are getting powerful. This list focuses on **keeping them safe, compli
 
 *Agent identity, authentication, and trust verification.*
 
-- **[AgentMesh IATP](https://github.com/imran-siddique/agent-mesh)** - Inter-Agent Trust Protocol implementation.
 - [Decentralized Identifiers (DIDs)](https://www.w3.org/TR/did-core/) - W3C standard for decentralized identity.
 - [Verifiable Credentials](https://www.w3.org/TR/vc-data-model/) - W3C standard for credentials.
+- [SPIFFE](https://spiffe.io/) - Secure identity framework for production workloads.
 
 ## Compliance
 
 *Tools for regulatory compliance (GDPR, HIPAA, SOC2, etc.)*
 
-- **[Agent OS Compliance](https://github.com/imran-siddique/agent-os)** - Built-in SOC2, GDPR, HIPAA, PCI-DSS frameworks.
 - [Drata](https://drata.com/) - SOC2 automation platform.
 - [Vanta](https://www.vanta.com/) - Compliance automation.
+- [OneTrust](https://www.onetrust.com/) - Privacy and data governance platform.
 
 ## Monitoring & Observability
 
@@ -67,15 +65,14 @@ AI agents are getting powerful. This list focuses on **keeping them safe, compli
 
 *Define and enforce policies on agent behavior.*
 
-- **[Agent OS Policy Engine](https://github.com/imran-siddique/agent-os)** - YAML-based deterministic policy enforcement.
 - [Open Policy Agent (OPA)](https://www.openpolicyagent.org/) - General-purpose policy engine.
 - [Cedar](https://www.cedarpolicy.com/) - Amazon's policy language.
+- [Casbin](https://casbin.org/) - Authorization library supporting various access control models.
 
 ## Multi-Agent Coordination
 
 *Governance for multi-agent systems.*
 
-- **[AgentMesh](https://github.com/imran-siddique/agent-mesh)** - Trust layer for agent-to-agent communication.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's multi-agent framework.
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating AI agents.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Build stateful multi-agent applications.
@@ -84,17 +81,8 @@ AI agents are getting powerful. This list focuses on **keeping them safe, compli
 
 *Governance solutions for specific industries.*
 
-### Healthcare (HIPAA)
-- [Agent OS Healthcare Template](https://github.com/imran-siddique/agent-os/tree/master/examples/healthcare) - HIPAA-compliant agent governance.
-
-### Finance (SOC2)
-- [Agent OS Finance Template](https://github.com/imran-siddique/agent-os/tree/master/examples/finance) - SOC2-compliant agent governance.
-
-### Legal
-- Coming soon
-
-### DevOps
-- Coming soon
+- [Agent OS Healthcare Example](https://github.com/imran-siddique/agent-os/tree/master/examples/healthcare-hipaa) - HIPAA-compliant agent governance template.
+- [Agent OS Finance Example](https://github.com/imran-siddique/agent-os/tree/master/examples/finance-soc2) - SOC2-compliant agent governance template.
 
 ## Research & Papers
 
@@ -110,16 +98,7 @@ AI agents are getting powerful. This list focuses on **keeping them safe, compli
 
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Anthropic's protocol for AI-tool interaction.
 - [Agent-to-Agent Protocol (A2A)](https://github.com/google/A2A) - Google's inter-agent communication standard.
-- [Inter-Agent Trust Protocol (IATP)](https://github.com/imran-siddique/agent-os) - Trust verification between agents.
-
----
 
 ## Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, [Imran Siddique](https://github.com/imran-siddique) has waived all copyright and related or neighboring rights to this work.
