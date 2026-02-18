@@ -122,6 +122,7 @@ Only tools with working integrations are listed. If it's here, it works with our
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Agent OS MCP server listed in awesome-mcp-servers.
 - [Microsoft agent-lightning](https://github.com/microsoft/agent-lightning/tree/main/contrib/recipes/agentos) - Agent OS recipe integrated in Microsoft's agent-lightning project.
 - [langgraph-trust](https://pypi.org/project/langgraph-trust/) - Trust-gated checkpoint nodes for LangGraph, published on PyPI. 57 tests, Ed25519 identity, governance policies.
+- [openai-agents-trust](https://pypi.org/project/openai-agents-trust/) - Trust & governance layer for OpenAI Agents SDK, published on PyPI. 51 tests, native guardrails, GovernanceHooks, trust-gated handoffs.
 
 ## Contributing
 
