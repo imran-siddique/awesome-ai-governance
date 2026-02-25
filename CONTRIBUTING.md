@@ -1,4 +1,4 @@
-# Contributing to Awesome Agent Ecosystem
+# Contributing to Awesome AI Agent Governance
 
 Thank you for your interest in contributing!
 
@@ -6,35 +6,38 @@ Thank you for your interest in contributing!
 
 ### What belongs here?
 
-This list only includes tools that have a **working integration** with the Agent OS + AgentMesh + Agent SRE stack:
+This list covers the full agent governance landscape:
 
-- ✅ Frameworks with Agent OS governance adapters (e.g., `wrap()` API)
-- ✅ Platforms with AgentMesh trust integrations
-- ✅ Observability tools with Agent SRE bridges
-- ✅ Protocol implementations used by the stack
-- ✅ IDE extensions that ship with Agent OS
-- ✅ Third-party projects that have integrated our libraries
+- ✅ Agent governance frameworks and control planes
+- ✅ LLM safety and guardrails tools
+- ✅ Agent frameworks with governance features
+- ✅ Standards and specifications for agent interoperability
+- ✅ Observability and monitoring platforms for AI agents
+- ✅ Security scanners and red-teaming tools
+- ✅ Research papers and surveys on agent safety
+- ✅ Industry reports and practitioner guides
 
 ### What doesn't belong?
 
-- ❌ Tools without a working integration with our stack
-- ❌ General AI/ML tools that only happen to be in the same space
-- ❌ Tools we merely mention or compare against
-- ❌ Planned/roadmap integrations that don't exist yet
+- ❌ General AI/ML tools without a governance, safety, or trust angle
+- ❌ Tools that are unmaintained or archived
+- ❌ Commercial products without a free tier, open-source component, or published specification
+- ❌ Duplicate entries — check existing listings first
 
 ### How to contribute
 
 1. Fork this repository
 2. Add your tool in the appropriate category
-3. Use the format: `- [Name](url) - Description of the integration with Agent OS, AgentMesh, or Agent SRE.`
-4. Include a link to the integration code or documentation
+3. Use the format: `- [Name](url) - One-line description of governance-relevant functionality.`
+4. Keep descriptions concise and neutral
 5. Submit a pull request
 
 ### Quality standards
 
-- Integration must be working and documented
-- Tool must be actively maintained
-- Open source preferred (but not required)
+- Tool or resource must be actively maintained
+- Open source preferred (but notable commercial tools are accepted)
+- Research papers should be from peer-reviewed venues or established organizations
+- Links must be working
 
 ## Questions?
 
