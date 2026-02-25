@@ -6,6 +6,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 
 ## Contents
 
+- [Our Stack](#our-stack)
 - [Agent Governance Frameworks](#agent-governance-frameworks)
 - [LLM Safety & Guardrails](#llm-safety--guardrails)
 - [Agent Frameworks with Built-in Governance](#agent-frameworks-with-built-in-governance)
@@ -15,6 +16,15 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [Research Papers & Surveys](#research-papers--surveys)
 - [Industry Reports & Guides](#industry-reports--guides)
 - [Conferences & Communities](#conferences--communities)
+
+## Our Stack
+
+*Our open-source governance stack for AI agents — from kernel-level policy enforcement to multi-agent networking and reliability engineering.*
+
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Kernel-level governance for AI agents with policy enforcement, action interception, and OWASP Agentic Top 10 coverage. Integrates with LangChain, CrewAI, AutoGen, OpenAI, Google ADK, PydanticAI, and smolagents.
+- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Zero-trust networking for AI agents with DID identity, trust scoring, delegation chains, and MCP governance proxy.
+- [Agent SRE](https://github.com/imran-siddique/agent-sre) - Site reliability engineering for AI agents with SLOs, error budgets, chaos testing, circuit breakers, and cascading failure detection.
+- [Agent Hypervisor](https://github.com/imran-siddique/agent-hypervisor) - Runtime governance for AI agents with execution rings, resource limits, saga compensation, joint liability, and kill switch.
 
 ## Agent Governance Frameworks
 
