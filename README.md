@@ -41,6 +41,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [Coral Server](https://github.com/Coral-Protocol/coral-server) - Agent coordination and trust server enabling safe multi-agent collaboration with structured communication protocols.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Unified LLM gateway with spend tracking, rate limiting, guardrails, and access controls across 100+ LLM providers.
 - [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant) - Rule-based guardrails engine for agentic applications with policy-as-code, trace analysis, and real-time intervention.
+- [Asqav](https://github.com/jagmarques/asqav-sdk) - Quantum-safe audit trails for AI agents. ML-DSA-65 signed, tamper-evident action logging with policy enforcement, threat detection, and multi-party signing. Integrates with LangChain, CrewAI, OpenAI Agents, Haystack. MIT licensed.
 
 ## LLM Safety & Guardrails
 
