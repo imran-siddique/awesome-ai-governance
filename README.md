@@ -89,6 +89,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral observability standard for traces, metrics, and logs. Foundation for agent observability.
 - [NIST AI Risk Management Framework](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence) - NIST framework for managing risks in AI systems, including governance and accountability guidelines.
 - [EU AI Act](https://artificialintelligenceact.eu/) - European Union regulation classifying AI systems by risk level with requirements for transparency, human oversight, and governance.
+- [The Integrity Framework](https://theintegrityframework.org/framework/v1) - Public CC BY 4.0 standard for sub-enterprise AI tool trustworthiness, where SOC 2 audits do not apply. Six pre-build vetoes (artifact-vs-outcome, independence, verifiability, AI accountability, pricing-rigor alignment, the TechCrunch test) plus a public INTEGRITY.md self-mapping and a tier-badged directory. Machine-readable spec at [framework/v1.json](https://theintegrityframework.org/framework/v1.json).
 
 ## Observability & Monitoring
 
