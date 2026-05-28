@@ -30,6 +30,10 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 
 *Dedicated platforms and control planes for governing AI agent behavior, enforcing policies, and maintaining trust.*
 
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Open-source pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions (Identity, Delegation, Purpose Alignment, Behavioral), detects 24h kill chain patterns, generates Merkle-chained audit trails before each action executes. MIT licensed, drop-in with LangGraph and LangChain.
+
+https://www.tryagentgate.com/
+
 - [Agent OS](https://github.com/imran-siddique/agent-os) - Kernel architecture for AI agents with POSIX-inspired primitives, deterministic policy enforcement, and flight recorder audit logging.
 - [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Identity, trust, and networking layer for multi-agent systems with DID-based identity, delegation chains, reward scoring, and MCP governance proxy.
 - [Agent SRE](https://github.com/imran-siddique/agent-sre) - Reliability engineering for AI agents with SLOs, error budgets, chaos testing, progressive delivery, cost guardrails, and incident management.
@@ -41,6 +45,10 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [Coral Server](https://github.com/Coral-Protocol/coral-server) - Agent coordination and trust server enabling safe multi-agent collaboration with structured communication protocols.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Unified LLM gateway with spend tracking, rate limiting, guardrails, and access controls across 100+ LLM providers.
 - [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant) - Rule-based guardrails engine for agentic applications with policy-as-code, trace analysis, and real-time intervention.
+
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Open-source pre-execution authorization PDP for autonomous AI agents. Scores trust across 4 dimensions (Identity, Delegation, Purpose Alignment, Behavioral), detects 24h kill chain patterns, generates Merkle-chained audit trails before each action executes. MIT licensed, drop-in with LangGraph and LangChain.
+
+https://www.tryagentgate.com/
 
 ## LLM Safety & Guardrails
 
