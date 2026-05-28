@@ -53,6 +53,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [LLM Guard](https://github.com/protectai/llm-guard) - Input and output scanners for LLM interactions covering toxicity, PII, prompt injection, invisible text, and code detection.
 - [Lakera Guard](https://www.lakera.ai/) - Real-time API for detecting prompt injections, data leakage, toxic content, and other LLM security threats.
 - [Arthur Shield](https://www.arthur.ai/product/shield) - Firewall for LLMs that detects hallucinations, toxicity, PII leakage, and prompt injection in real time.
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection).
 - [Vigil](https://github.com/deadbits/vigil-llm) - LLM security scanner for detecting prompt injections using embedding similarity, heuristics, and canary tokens.
 - [Hyperion](https://github.com/Salesforce/hyperion) - Framework for evaluating and improving robustness of LLM-based agents against adversarial attacks.
 
@@ -103,6 +104,8 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [Weights & Biases](https://wandb.ai/) - ML experiment tracking platform with LLM tracing, evaluation pipelines, and model monitoring.
 - [MLflow](https://github.com/mlflow/mlflow) - Open-source platform for the ML lifecycle with experiment tracking, model registry, and LLM evaluation tools.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - Enterprise monitoring for LLM applications with trace clustering, cost attribution, and quality scoring.
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source self-hostable end-to-end agent engineering platform with tracing, evals, guardrails, and gateway.
+- [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native tracing for LLM and agent apps with 50+ framework integrations.
 - [Prometheus](https://prometheus.io/) + [Grafana](https://grafana.com/) - Industry-standard metrics collection and visualization. Common foundation for custom agent SLO dashboards.
 - [Jaeger](https://www.jaegertracing.io/) - Open-source distributed tracing for monitoring agent workflows and debugging latency across services.
 
