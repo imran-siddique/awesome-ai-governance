@@ -41,6 +41,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [Coral Server](https://github.com/Coral-Protocol/coral-server) - Agent coordination and trust server enabling safe multi-agent collaboration with structured communication protocols.
 - [LiteLLM](https://github.com/BerriAI/litellm) - Unified LLM gateway with spend tracking, rate limiting, guardrails, and access controls across 100+ LLM providers.
 - [Invariant Guardrails](https://github.com/invariantlabs-ai/invariant) - Rule-based guardrails engine for agentic applications with policy-as-code, trace analysis, and real-time intervention.
+- [ScopeBlind protect-mcp](https://github.com/ScopeBlind/scopeblind-gateway) - Security gateway for MCP servers and Claude Code with Cedar policy enforcement (AWS Cedar via WASM), Ed25519-signed decision receipts, issuer-blind spending authority (VOPRF), and multi-agent swarm tracking. Receipts conform to an [IETF Internet-Draft](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/). [Merged into AGT](https://github.com/microsoft/agent-governance-toolkit/pull/667).
 
 ## LLM Safety & Guardrails
 
@@ -89,6 +90,7 @@ AI agents are moving from demos to production, but governance hasn't kept up. Th
 - [OpenTelemetry](https://opentelemetry.io/) - Vendor-neutral observability standard for traces, metrics, and logs. Foundation for agent observability.
 - [NIST AI Risk Management Framework](https://www.nist.gov/artificial-intelligence/executive-order-safe-secure-and-trustworthy-artificial-intelligence) - NIST framework for managing risks in AI systems, including governance and accountability guidelines.
 - [EU AI Act](https://artificialintelligenceact.eu/) - European Union regulation classifying AI systems by risk level with requirements for transparency, human oversight, and governance.
+- [Signed Decision Receipts (IETF)](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/) - Internet-Draft defining a portable, cryptographically signed receipt format for machine-to-machine access control decisions. Ed25519 + JCS canonicalization. Independently verifiable offline.
 
 ## Observability & Monitoring
 
