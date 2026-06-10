@@ -12,7 +12,7 @@ Real-time threat detection and audit logging for GitHub Copilot coding agent ses
 
 This hook provides governance controls for Copilot coding agent sessions:
 - **Threat detection**: Scans prompts for data exfiltration, privilege escalation, system destruction, prompt injection, and credential exposure
-- **Governance levels**: Open, standard, strict, locked — from audit-only to full blocking
+- **Governance levels**: Open, standard, strict, locked, from audit-only to full blocking
 - **Audit trail**: Append-only JSON log of all governance events
 - **Session summary**: Reports threat counts at session end
 
@@ -93,7 +93,7 @@ Events are written to `logs/copilot/governance/audit.log` in JSON Lines format:
 
 ## Privacy & Security
 
-- Prompts are **never** logged — only threat signals and metadata are recorded
+- Prompts are **never** logged, only threat signals and metadata are recorded
 - Add `logs/` to `.gitignore` to keep audit data local
 - Set `SKIP_GOVERNANCE_AUDIT=true` to disable entirely
-- All data stays local — no external network calls
+- All data stays local, no external network calls
