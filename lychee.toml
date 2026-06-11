@@ -9,4 +9,3 @@ exclude = [
     # Anchors into SPA docs resolve client-side
     '^https://google\.github\.io/A2A/#/',
 ]
-exclude_mail = true
