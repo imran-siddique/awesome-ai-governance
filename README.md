@@ -118,7 +118,6 @@ AI agents now hold real reach: email, CRMs, databases, financial systems. Guardr
 - [MLflow](https://github.com/mlflow/mlflow) - Open-source ML lifecycle platform with experiment tracking, model registry, and LLM evaluation tools.
 - [Prometheus](https://prometheus.io/) + [Grafana](https://grafana.com/) - Industry-standard metrics and visualization. Foundation for custom agent SLO dashboards.
 - [traceAI](https://github.com/future-agi/traceAI) - Open-source OpenTelemetry-native tracing for LLM and agent apps with 50+ framework integrations.
-- [Tuning Engines](https://github.com/cerebrixos-org/tuningengines) - Open-source AI control and evidence plane for agent, tool, MCP, and skill traffic. Records policy decisions, approvals, traces, runtime state, costs, and outcomes.
 - [Weights & Biases](https://wandb.ai/) - ML experiment tracking with LLM tracing, evaluation pipelines, and model monitoring.
 
 ## Security Testing
@@ -126,7 +125,7 @@ AI agents now hold real reach: email, CRMs, databases, financial systems. Guardr
 *Scanners, red-teaming tools, and frameworks for testing the security of AI agents and LLMs.*
 
 - [Counterfit](https://github.com/Azure/counterfit) - Azure's tool for assessing ML model security through adversarial attacks.
-- [CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CyberSecEval) - Meta's benchmark suite for LLM cybersecurity risks including insecure code generation and prompt extraction.
+- [CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) - Meta's benchmark suite for LLM cybersecurity risks including insecure code generation and prompt extraction.
 - [Garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanner from NVIDIA. Probes for hallucination, data leakage, prompt injection, toxicity, and more.
 - [HouYi](https://github.com/LLMSecurity/HouYi) - Prompt injection attack framework for testing LLM-integrated application security boundaries.
 - [PyRIT](https://github.com/Azure/PyRIT) - Microsoft's Python Risk Identification Toolkit for red-teaming generative AI systems with automated attack strategies.
@@ -139,7 +138,7 @@ AI agents now hold real reach: email, CRMs, databases, financial systems. Guardr
 - [Agent-to-Agent Protocol (A2A)](https://github.com/google/A2A) - Google-led open protocol for inter-agent communication, task delegation, and capability discovery.
 - [CoSAI Risk Map v1](https://github.com/cosai-oasis/secure-ai-tooling) - Coalition for Secure AI's component-level risk taxonomy for agentic AI systems: 23 components, 35 controls, 36 risks (including 6 agentic-specific), 10 personas, 8 lifecycle stages. Cross-walks to MITRE ATLAS, NIST AI RMF, STRIDE, OWASP LLM Top 10, ISO 22989, and EU AI Act. Launched June 2026.
 - [CSA Agentic Trust Framework](https://github.com/massivescale-ai/agentic-trust-framework) - Cloud Security Alliance / MassiveScale framework defining 5 Core Elements (Identity, Behavior, Data Governance, Segmentation, Incident Response) with 25 requirements across a 4-tier maturity model (Intern, Junior, Senior, Principal). Public Review Draft v0.9.1 (April 2026). Two conformance tiers: ATF Compatible / ATF Certified.
-- [CSA MCP Security Resource Center](https://cloudsecurityalliance.org/research/working-groups/model-context-protocol-security) - Cloud Security Alliance guidance for secure MCP implementations.
+- [CSA MCP Security Resource Center](https://modelcontextprotocol-security.io/) - Cloud Security Alliance community project for securing MCP servers and AI agents: hardening guides, audit database, and vulnerability database.
 - [CSA Non-Human Identity & Agentic AI Governance v1](https://labs.cloudsecurityalliance.org/research/csa-whitepaper-nonhuman-identity-agentic-ai-governance-v1-cs/) - Cloud Security Alliance whitepaper recommending a 6-field NHI registry (Identity, Owning Team, Business Purpose, Systems Accessed, Privilege Scope, Expiration/Review Date) for managing non-human and agentic identities. Published May 2026.
 - [EU AI Act](https://artificialintelligenceact.eu/) - EU regulation classifying AI systems by risk with requirements for transparency, human oversight, and governance.
 - [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) - Open protocol connecting LLMs to tools and data sources with standardized server/client architecture.
@@ -175,7 +174,7 @@ AI agents now hold real reach: email, CRMs, databases, financial systems. Guardr
 *Practitioner guides, threat models, and industry analyses for agent governance.*
 
 - [Anthropic's Responsible Scaling Policy](https://www.anthropic.com/responsible-scaling-policy) - Framework for responsible AI deployment with AI Safety Levels (ASL) and safety evaluation commitments.
-- [Anthropic's Zero Trust for AI Agents](https://www.anthropic.com/research/zero-trust-for-ai-agents) - Practical framework applying zero-trust principles to agentic AI: agent identity, supply chain security, MCP tool security, policy enforcement, multi-agent coordination, and detection and response.
+- [Anthropic: Trustworthy Agents in Practice](https://www.anthropic.com/research/trustworthy-agents) - Anthropic's practical guidance on deploying trustworthy agents: balancing autonomy with human oversight, prompt-injection resistance, and operational safeguards.
 - [CSA AI Safety Initiative](https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence) - Cloud Security Alliance publications on AI safety and security best practices.
 - [Google Secure AI Framework (SAIF)](https://safety.google/cybersecurity-advancements/saif/) - Conceptual framework for securing AI systems across the development and deployment lifecycle.
 - [Microsoft Responsible AI Standard](https://www.microsoft.com/en-us/ai/responsible-ai) - Framework covering fairness, reliability, safety, and transparency in AI development.
