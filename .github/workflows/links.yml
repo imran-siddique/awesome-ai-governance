@@ -25,3 +25,7 @@ jobs:
         with:
           args: --config lychee.toml README.md
           fail: true
+        env:
+          # Resolves GitHub links via the API: avoids rate-limit flakiness and
+          # covers org repos that are private pre-launch.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
