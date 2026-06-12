@@ -1,4 +1,4 @@
-# Awesome AI Agent Governance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Agent Governance [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Discord](https://dcbadge.limes.pink/api/server/9JWNpH7E?style=flat)](https://discord.gg/9JWNpH7E)
 
 > A curated list of tools, frameworks, standards, and resources for governing autonomous AI agents, covering safety, trust, identity, observability, and compliance across the agent lifecycle.
 
@@ -199,6 +199,8 @@ AI agents now hold real reach: email, CRMs, databases, financial systems. Guardr
 ## Contributing
 
 Contributions welcome! Please read the [contribution guidelines](CONTRIBUTING.md) and submit a PR. Open-source governance tools, research papers, and community resources are especially welcome.
+
+Join the community on [Discord](https://discord.gg/9JWNpH7E).
 
 ---
 
