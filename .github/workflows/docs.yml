@@ -4,6 +4,7 @@ on:
   push:
     branches: [main]
     paths:
+      - "docs/**"
       - "README.md"
       - "CONTRIBUTING.md"
       - "mkdocs.yml"
@@ -46,6 +47,8 @@ jobs:
         run: |
           BUILD=.docs_build
           mkdir -p $BUILD
+
+          if [ -d docs ]; then cp -r docs $BUILD/docs; fi
 
           for fname in README.md CONTRIBUTING.md CNAME; do
             if [ -f "$fname" ]; then cp "$fname" "$BUILD/$fname"; fi

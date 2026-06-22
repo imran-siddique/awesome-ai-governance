@@ -67,6 +67,9 @@ extra:
       link: https://github.com/agentrust-io/awesome-ai-governance
   generator: false
 
+extra_css:
+  - docs/stylesheets/extra.css
+
 nav:
   - List: README.md
   - Contributing: CONTRIBUTING.md
