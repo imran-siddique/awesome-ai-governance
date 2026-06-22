@@ -13,6 +13,7 @@ exclude = [
     '^https://github\.com/agentrust-io/cmcp$',
     '^https://github\.com/agentrust-io/agent-manifest$',
     '^https://github\.com/agentrust-io/trace-spec$',
-    # Slow host that regularly exceeds CI timeouts
+    # Slow hosts that regularly exceed CI timeouts
     '^https://aisafety\.camp/$',
+    '^https://www\.aamas-conference\.org/',
 ]
